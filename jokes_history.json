@@ -1,0 +1,30 @@
+[
+    {
+        "category": "Programming",
+        "type": "twopart",
+        "joke": null,
+        "setup": "What is the best prefix for global variables?",
+        "delivery": "//"
+    },
+    {
+        "category": "Dark",
+        "type": "twopart",
+        "joke": null,
+        "setup": "Why are there no pharmacies in Africa?",
+        "delivery": "Because you can't use medicine on an empty stomach."
+    },
+    {
+        "category": "Pun",
+        "type": "twopart",
+        "joke": null,
+        "setup": "What time did the man go to the dentist?",
+        "delivery": "Tooth hurt-y."
+    },
+    {
+        "category": "Programming",
+        "type": "twopart",
+        "joke": null,
+        "setup": "How can you tell an extroverted programmer?",
+        "delivery": "He looks at YOUR shoes when he's talking."
+    }
+]
