@@ -7,7 +7,7 @@ class Storage:
     @classmethod
     def load_joke(cls):
         try:
-            with open(cls. FILENAME, "r", encoding='utf-8') as file:
+            with open(cls.FILENAME, "r", encoding='utf-8') as file:
                 data = json.load(file)
                 return [Joke.from_dict(i) for i in data]
         except (FileNotFoundError, json.JSONDecodeError):

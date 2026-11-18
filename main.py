@@ -66,7 +66,7 @@ def main():
                     joke = jokes[i]
                     print(f"\n[{i}] Category: {joke.category}")            
                     joke.display()
-
+  # joke = jokes[i] vwvdebit indexs 
         elif choice == "3":
             jokes = Storage.load_joke()
             if not jokes:
@@ -79,7 +79,7 @@ def main():
                 joke = jokes[i]
                 print(f"\n--- Joke #{i} (Category: {joke.category}) ---") 
                 joke.display()
-                # joke = jokes[i] vwvdebit indexs 
+              
             try:
                 idx = int(input("\nEnter the number of the joke to delete: "))
                 success = Storage.delete_joke(idx)       
